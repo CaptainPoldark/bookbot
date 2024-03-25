@@ -12,6 +12,7 @@ def main():
 
     for character, count in character_dict.items():
         print(f"The '{character}' was found {count} times.")
+    print("")
     print("-- End of report --")
 
 def sort_dict_by_value(dictionary):
